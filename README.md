@@ -1,6 +1,6 @@
 # offramp
 
-IaC for standing up AWS and Azure govcloud infrastructure and a managed kubernetes cluster to deploy your app onto
+IaC intended to be used as a base for FedRAMP Moderate environments. Stands up AWS and Azure (coming soon!) govcloud infrastructure and a managed kubernetes cluster to deploy your app into.
 
 ## TODO
 
