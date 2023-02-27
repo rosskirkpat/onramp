@@ -1,4 +1,6 @@
-# sentinel
+# offramp
+
+IaC for standing up AWS and Azure govcloud infrastructure and a managed kubernetes cluster to deploy your app onto
 
 ## TODO
 
