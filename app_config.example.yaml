@@ -1,0 +1,41 @@
+---
+    cloud: aws
+    base_domain: ""
+    base_name_prefix: ""
+    customer_name: ""
+    environment: ""
+    org_name: ""
+    region: us-gov-east-1
+    service_account_name: ""
+    rbac_role_name: ""
+    kubernetes_version: "1.24"
+    owner: ""
+    kubernetes:
+      cluster_name: ""
+      cp_node_type: ""
+      enable_kms: true
+      private_cluster: true
+      rbac_enabled: true
+      worker_node_type: ""
+    managed_kubernetes:
+      cluster_addons:
+        cni: null
+        coredns: null
+        kube-proxy: null
+    object_storage: null
+    repository:
+      repository_name: ""
+      visibility: private
+      replication_regions: 
+        - "us-gov-west-1"
+        - "us-gov-east-1"
+    vpc:
+      cidr_block: 10.0.0.0/16
+    vpn:
+      vpn_client_cidr_block: 172.16.0.0/20
+      vpn_dns_servers:
+        - 1.1.1.1
+        - 1.0.0.1
+      vpn_retention_in_days: 365
+      vpn_session_timeout_hours: 8
+    

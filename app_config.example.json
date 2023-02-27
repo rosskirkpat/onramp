@@ -1,0 +1,41 @@
+{
+    "base_domain": "",
+    "base_name_prefix": "",
+    "customer_name": "",
+    "environment": "",
+    "kubernetes": {
+        "cluster_name": "",
+        "cp_node_types": [],
+        "enable_kms": true,
+        "private_cluster": true,
+        "rbac_enabled": true,
+        "worker_node_types": []
+    },
+    "kubernetes_version": "1.24",
+    "managed_kubernetes": {
+        "cluster_addons": {
+            "cni": {},
+            "coredns": {},
+            "kube-proxy": {}
+        }
+    },
+    "object_storage": {},
+    "org_name": "",
+    "region": "us-gov-east-1",
+    "repository": {
+        "name_prefix": "",
+        "visibility": "private"
+    },
+    "vpc": {
+        "cidr_block": "10.0.0.0/16"
+    },
+    "vpn": {
+        "vpn_client_cidr_block": "172.16.0.0/20",
+        "vpn_dns_servers": [
+            "1.1.1.1",
+            "1.0.0.1"
+        ],
+        "vpn_retention_in_days": 365,
+        "vpn_session_timeout_hours": 8
+    }
+}

@@ -1,0 +1,11 @@
+#### Variable definitions
+environment             = ""
+customer_name           = "" # customer name to use for tagging resources
+org_name                = "" # name of the organization to use when creating a new Route 53 public record
+cluster_name            = "" # name of the managed kubernetes cluster that runs your application
+region                  = "" # cloud region used for all resources
+base_domain             = "" # domain name used for VPN certificate lookup and public DNS records
+cloud                   = ""
+
+aws_credentials_file    = "" # full path to your local AWS credentials file
+aws_profile             = "" # name of the profile to use from the AWS credentials file
