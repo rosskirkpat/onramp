@@ -1,6 +1,6 @@
-# offramp
+# onramp
 
-IaC intended to be used as a base for FedRAMP Moderate environments. Stands up AWS and Azure (coming soon!) govcloud infrastructure and a managed kubernetes cluster to deploy your app into.
+onramp is a collection of security-focused IaC modules that serve as a base infrastructure profile for FedRAMP Moderate environments. Stands up AWS and Azure (coming soon!) govcloud infrastructure and a managed kubernetes cluster to deploy your app into.
 
 ## TODO
 
